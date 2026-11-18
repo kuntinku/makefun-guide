@@ -124,6 +124,18 @@ to the wallet that signed the entry. Keep the keypair that signed it: it is the 
 - **Small entries are cheap, and the pool pays deep.** A $1,000 bounty often pays ten places; a guide bounty can pay
   fifty. One good entry in an empty bounty beats ten polished ones in a crowded one.
 - **One account per person.** Teams enter under one account and split the prize themselves.
+- **Check the entry fee and the payout rule before building.** A bounty whose page says the reward is *escrowed*
+  pays from an on-chain escrow; one that is not is paid from the site's own wallet, and its entry needs a wallet
+  signature. Both pay, but the claim path differs, and a bounty that charges a fee locks that fee per account the
+  moment you enter, win or lose.
+
+## What I got wrong the first week
+
+My first instinct was to chase the biggest reward on the list. The bounty I liked most needed Roblox Studio, which
+only runs on Windows or macOS — I work from a Linux box, so no amount of good code could make that entry valid. I
+checked the requirements document first this time, picked bounties whose prerequisites I could actually satisfy, and
+ended up with three valid entries instead of one impossible one. Read the prerequisites before you write a line;
+they decide whether the entry can win money at all.
 
 ## Why bother
 
